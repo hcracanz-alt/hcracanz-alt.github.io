@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="racanz.studio — an independent software studio building simple, secure digital products. HashLoop is currently in development." />
+  <title>racanz.studio</title>
+  <style>
+    :root{--bg:#090b10;--card:#111621;--line:#232b3a;--text:#f4f7fb;--muted:#9aa6b6;--accent:#8ee6c4;--accent2:#7db7ff;--max:1100px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 80% 0%,#142338 0,transparent 30%),var(--bg);color:var(--text);line-height:1.6}
+    a{color:inherit}.wrap{width:min(calc(100% - 40px),var(--max));margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:24px 0}.brand{font-weight:800;letter-spacing:-.03em;text-decoration:none}.navlinks{display:flex;gap:22px;color:var(--muted);font-size:14px}.navlinks a{text-decoration:none}.hero{padding:88px 0 72px}.eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);background:#0d121b;border-radius:999px;padding:7px 12px;color:var(--muted);font-size:13px}.dot{width:8px;height:8px;background:var(--accent);border-radius:50%;box-shadow:0 0 18px var(--accent)}h1{font-size:clamp(48px,9vw,94px);line-height:.95;letter-spacing:-.065em;margin:26px 0 26px;max-width:900px}.lead{max-width:720px;color:var(--muted);font-size:clamp(18px,2.4vw,23px)}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.btn{display:inline-block;padding:12px 17px;border-radius:12px;text-decoration:none;font-weight:700;border:1px solid var(--line);background:#101621}.btn.primary{background:var(--text);color:#090b10;border-color:var(--text)}section{padding:58px 0}.section-title{font-size:14px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:18px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(180deg,#121824,#0e131c);border:1px solid var(--line);border-radius:18px;padding:26px}.card h2,.card h3{margin:0 0 10px;letter-spacing:-.03em}.card p{margin:0;color:var(--muted)}.project{grid-column:span 2}.status{display:inline-block;margin-top:18px;border:1px solid #315144;color:var(--accent);border-radius:999px;padding:6px 10px;font-size:12px;font-weight:700}.note{font-size:13px;color:var(--muted);margin-top:16px}.footer{border-top:1px solid var(--line);margin-top:48px;padding:30px 0 46px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:14px}.footer a{text-decoration:none}.legal{display:flex;gap:18px}
+    @media(max-width:760px){.navlinks{display:none}.hero{padding:60px 0 48px}.grid{grid-template-columns:1fr}.project{grid-column:auto}.card{padding:22px}.wrap{width:min(calc(100% - 28px),var(--max))}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <a class="brand" href="/">racanz.studio</a>
+      <div class="navlinks"><a href="#work">Work</a><a href="#about">About</a><a href="privacy.html">Privacy</a></div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow"><span class="dot"></span> Independent software studio</div>
+        <h1>Building useful digital products with care.</h1>
+        <p class="lead">racanz.studio is an independent software studio focused on practical, secure, mobile-first products. We are currently developing HashLoop.</p>
+        <div class="actions"><a class="btn primary" href="#work">View project</a><a class="btn" href="https://github.com/hcracanz-alt">GitHub</a></div>
+      </section>
+
+      <section id="work">
+        <div class="section-title">Current work</div>
+        <div class="grid">
+          <article class="card project">
+            <h2>HashLoop</h2>
+            <p>A mobile-first rewards application currently in development. The project is being built with account security, server-side verification, controlled reward flows, and Lightning-compatible payout infrastructure in mind.</p>
+            <span class="status">In development</span>
+            <div class="note">Features, availability, partners and payout capabilities may change before public release.</div>
+          </article>
+          <article class="card">
+            <h3>Approach</h3>
+            <p>Small iterations, measurable reliability, conservative security defaults, and clear separation between testing and production systems.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section-title">About</div>
+        <div class="grid">
+          <article class="card"><h3>Independent</h3><p>racanz.studio is an independently operated software project, not a large corporation.</p></article>
+          <article class="card"><h3>Early stage</h3><p>HashLoop is not yet generally available. Public-facing claims are intentionally limited while development and provider onboarding continue.</p></article>
+          <article class="card"><h3>Security-minded</h3><p>Backend services are kept separate from this public website. No private application source code, credentials, or infrastructure secrets are published here.</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>© 2026 racanz.studio</div>
+      <div class="legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="https://github.com/hcracanz-alt">GitHub</a></div>
+    </footer>
+  </div>
+</body>
+</html>
