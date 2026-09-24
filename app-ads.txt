@@ -1,0 +1,7 @@
+# HashLoop app-ads.txt
+# This file is intentionally free of seller records until an advertising provider approves
+# HashLoop and provides the exact authorized seller line(s).
+# Do not add a guessed publisher ID, account ID, or reseller line.
+#
+# After approval, each provider supplies a line similar to:
+# example.com, publisher-account-id, DIRECT, certification-authority-id
